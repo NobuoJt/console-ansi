@@ -1,15 +1,30 @@
 {
-  "name": "console-ansi",
-  "version": "0.0.1",
+  "name": "@nobuojt/console-ansi",
+  "version": "1.0.0",
   "description": "Add special character alias at default console. ex.colorize",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "console",
     "alias"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NobuoJt/console-ansi/"
+  },
+  "bugs": {
+    "url": "https://github.com/NobuoJt/console-ansi/issues"
+  },
+  "homepage": "https://github.com/NobuoJt/console-ansi#readme",
   "author": "NobuoJt",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
+
 }

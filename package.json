@@ -11,5 +11,8 @@
     "alias"
   ],
   "author": "NobuoJt",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
 }

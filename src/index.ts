@@ -1,20 +1,20 @@
 "use strict";
 
-export class console_ansi{
-     RESET = "\u001B[0m";
-     BLACK = "\u001B[30m";
-     RED = "\u001B[31m";
-     GREEN = "\u001B[32m";
-     LIGHT_YELLOW = "\u001B[93m";
-     YELLOW = "\u001B[33m";
-     YELLOW_BACKGROUND = "\u001B[43m";
-     BLUE = "\u001B[34m";
-     PURPLE = "\u001B[35m";
-     CYAN = "\u001B[36m";
-     WHITE = "\u001B[37m";
-     BOLD = "\u001B[1m";
-     UNBOLD = "\u001B[21m";
-     UNDERLINE = "\u001B[4m";
-     STOP_UNDERLINE = "\u001B[24m";
-     BLINK = "\u001B[5m";
+export default class ConsoleAnsi{
+     static reset = "\u001B[0m";
+     static black = "\u001B[30m";
+     static red = "\u001B[31m";
+     static green = "\u001B[32m";
+     static lightYellow = "\u001b[93m";
+     static yellow = "\u001b[33m";
+     static yellowBackground = "\u001b[43m";
+     static blue = "\u001b[34m";
+     static purple = "\u001b[35m";
+     static cyan = "\u001b[36m";
+     static white = "\u001b[37m";
+     static bold = "\u001b[1m";
+     static unbold = "\u001b[21m";
+     static underline = "\u001b[4m";
+     static stopUnderline = "\u001b[24m";
+     static blink = "\u001b[5m";
 }

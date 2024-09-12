@@ -16,4 +16,3 @@ export declare class console_ansi {
     STOP_UNDERLINE: string;
     BLINK: string;
 }
-//# sourceMappingURL=index.d.ts.map

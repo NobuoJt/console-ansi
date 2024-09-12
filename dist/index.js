@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.console_ansi = void 0;
 var console_ansi = /** @class */ (function () {
     function console_ansi() {
         this.RESET = "\u001B[0m";

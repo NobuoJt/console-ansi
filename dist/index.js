@@ -1,25 +1,24 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.console_ansi = void 0;
-var console_ansi = /** @class */ (function () {
-    function console_ansi() {
-        this.RESET = "\u001B[0m";
-        this.BLACK = "\u001B[30m";
-        this.RED = "\u001B[31m";
-        this.GREEN = "\u001B[32m";
-        this.LIGHT_YELLOW = "\u001B[93m";
-        this.YELLOW = "\u001B[33m";
-        this.YELLOW_BACKGROUND = "\u001B[43m";
-        this.BLUE = "\u001B[34m";
-        this.PURPLE = "\u001B[35m";
-        this.CYAN = "\u001B[36m";
-        this.WHITE = "\u001B[37m";
-        this.BOLD = "\u001B[1m";
-        this.UNBOLD = "\u001B[21m";
-        this.UNDERLINE = "\u001B[4m";
-        this.STOP_UNDERLINE = "\u001B[24m";
-        this.BLINK = "\u001B[5m";
+var ConsoleAnsi = /** @class */ (function () {
+    function ConsoleAnsi() {
     }
-    return console_ansi;
+    ConsoleAnsi.reset = "\u001B[0m";
+    ConsoleAnsi.black = "\u001B[30m";
+    ConsoleAnsi.red = "\u001B[31m";
+    ConsoleAnsi.green = "\u001B[32m";
+    ConsoleAnsi.lightYellow = "\u001b[93m";
+    ConsoleAnsi.yellow = "\u001b[33m";
+    ConsoleAnsi.yellowBackground = "\u001b[43m";
+    ConsoleAnsi.blue = "\u001b[34m";
+    ConsoleAnsi.purple = "\u001b[35m";
+    ConsoleAnsi.cyan = "\u001b[36m";
+    ConsoleAnsi.white = "\u001b[37m";
+    ConsoleAnsi.bold = "\u001b[1m";
+    ConsoleAnsi.unbold = "\u001b[21m";
+    ConsoleAnsi.underline = "\u001b[4m";
+    ConsoleAnsi.stopUnderline = "\u001b[24m";
+    ConsoleAnsi.blink = "\u001b[5m";
+    return ConsoleAnsi;
 }());
-exports.console_ansi = console_ansi;
+exports.default = ConsoleAnsi;
